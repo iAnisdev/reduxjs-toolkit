@@ -1,0 +1,23 @@
+{
+  "name": "reduxjs-toolkit",
+  "version": "1.0.0",
+  "description": "Redux JS toolkit basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAnisdev/reduxjs-toolkit.git"
+  },
+  "keywords": [],
+  "author": "Anis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAnisdev/reduxjs-toolkit/issues"
+  },
+  "homepage": "https://github.com/iAnisdev/reduxjs-toolkit#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.5"
+  }
+}
