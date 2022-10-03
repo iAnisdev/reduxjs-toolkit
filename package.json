@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/iAnisdev/reduxjs-toolkit#readme",
   "dependencies": {
-    "@reduxjs/toolkit": "^1.8.5"
+    "@reduxjs/toolkit": "^1.8.5",
+    "redux-logger": "^3.0.6"
   }
 }
