@@ -4,7 +4,7 @@ const { createSlice } = require('@reduxjs/toolkit')
 const iceCreamSlice = createSlice({
     name: 'icecream',
     initialState: {
-        available: 5
+        available: 15
     },
     reducers: {
         ordered: (state) => {
@@ -12,6 +12,11 @@ const iceCreamSlice = createSlice({
         },
         reStocked: (state, action) => {
             state.available += action.payload
+        }
+    },
+    extraReducers: {
+        ['cake/ordered']: (state) => {
+            state.available--;
         }
     }
 })
